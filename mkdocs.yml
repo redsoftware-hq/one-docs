@@ -8,14 +8,37 @@ theme:
     - navigation.footer
     - toc.integrate
     - navigation.expand  # Expands only the current section
+  collapse_navigation: true
+  titles_only: true
+  sticky_navigation: true
+  search: true
+  logo: https://cdn.prod.website-files.com/667cce58f035d10f1f97b9be/66ab8a2a9ef6bf459f1518f6_Redsoft%20Logo_Black.svg
+  locale: en
+
   palette:
-    scheme: default
+    - scheme: default
+      primary: white
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: white
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
 
 markdown_extensions:
+  - admonition
   - toc:
       permalink: true
       title: Table of Contents
       toc_depth: 2
+
+repo_url: https://github.com/redsoftware-hq/one-docs
+site_url: https://www.redsofterp.com
 
 nav:
   - Home: index.md
@@ -33,3 +56,20 @@ nav:
       - Messenger: oneinbox/messenger/index.md
       - WhatsApp: oneinbox/whatsapp/index.md
 
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/redsoftware/
+      name: Connect on LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: mailto:sanket@redsoftware.in
+      name: Email Me
+    - icon: fontawesome/brands/github
+      link: https://github.com/redsoftware-hq/
+      name: View on GitHub
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/redsoftwarein
+      name: Follow on Twitter
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/redsofterp
+      name: Follow on Instagram
