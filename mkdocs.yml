@@ -1,0 +1,26 @@
+site_name: One Suite Documentation
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - navigation.footer
+    - toc.integrate
+
+nav:
+  - Home: index.md
+  - OneLead:
+        - Overview: onelead/index.md
+        - Installation: onelead/installation.md
+        - Meta:
+            - Overview: onelead/meta/index.md
+            - Meta App Setup: onelead/meta/meta_app_setup.md
+            - Meta Lead Testing: onelead/meta/meta_lead_testing.md
+            - Setup Guide: onelead/meta/setup.md
+  - OneInbox:
+      - Overview: oneinbox/index.md
+      - Instagram: oneinbox/instagram/index.md
+      - Messenger: oneinbox/messenger/index.md
+      - WhatsApp: oneinbox/whatsapp/index.md
+
