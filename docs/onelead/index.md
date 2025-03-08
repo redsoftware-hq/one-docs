@@ -1,17 +1,19 @@
-# Meta Integration for OneLead
+# OneLead - Lead Management Solution
 
-OneLead provides **seamless integration with Meta (Facebook) Lead Ads**, ensuring that leads from your Facebook and Instagram campaigns are instantly available in your CRM.
+OneLead is a **Frappe-based lead management system** designed to seamlessly integrate with multiple lead sources, including **Meta (Facebook) Leads** and **Google Leads**. It automates lead collection, processing, and assignment within your business workflow.
 
-## How It Works
-- **Captures leads** from Facebook Lead Forms via webhooks.
-- **Maps leads** to internal CRM structures based on configurations.
-- **Assigns leads** to users or teams automatically.
-- **Tracks lead performance** through analytics.
+## Lead Sources
 
-## Key Setup Steps
-1. **Register a Meta App** on the [Facebook Developer Portal](https://developers.facebook.com/).
-2. **Configure Webhooks** to receive real-time lead data.
-3. **Generate and validate User Access Tokens**.
-4. **Map Meta Ad Pages and Forms** inside OneLead.
+### 🔹 Meta Leads
+OneLead integrates with **Meta (Facebook) Lead Ads**, allowing businesses to **automatically capture** leads from Facebook and Instagram ad campaigns, map them to internal CRM systems, and assign them to sales teams.
 
-For a complete guide on **Meta Webhook Configuration**, go to [Meta Webhook Config](meta_webhook_config.md).
+### 🔹 Google Leads
+With OneLead's **Google Lead Integration**, you can fetch leads directly from **Google Ads Lead Form Extensions**, ensuring that every inquiry is instantly available in your CRM for follow-up.
+
+## Features
+- 🔄 **Automated lead fetching** from Meta & Google.
+- 📌 **Custom mapping** to internal lead structures.
+- 📊 **Lead tracking & assignment** based on business rules.
+- 🔗 **Webhook-based integration** for real-time updates.
+
+Proceed to **Meta Integration** for detailed setup instructions.
