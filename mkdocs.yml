@@ -7,6 +7,15 @@ theme:
     - navigation.instant
     - navigation.footer
     - toc.integrate
+    - navigation.expand  # Expands only the current section
+  palette:
+    scheme: default
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      title: Table of Contents
+      toc_depth: 2
 
 nav:
   - Home: index.md
@@ -15,9 +24,9 @@ nav:
         - Installation: onelead/installation.md
         - Meta:
             - Overview: onelead/meta/index.md
-            - Meta App Setup: onelead/meta/meta_app_setup.md
+            - Setup: onelead/meta/setup.md
             - Meta Lead Testing: onelead/meta/meta_lead_testing.md
-            - Setup Guide: onelead/meta/setup.md
+            - Meta Form Mapping: onelead/meta/meta_form_mapping.md
   - OneInbox:
       - Overview: oneinbox/index.md
       - Instagram: oneinbox/instagram/index.md

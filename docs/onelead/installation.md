@@ -33,4 +33,3 @@ bench get-app https://github.com/redsoftware-hq/onelead
 bench --site mysite.local install-app onelead
 ```
 
-
