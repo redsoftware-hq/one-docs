@@ -138,9 +138,9 @@ Once the app is registered and webhook configured:
 
 ## Next Steps
 
-- [Set Up Meta Ads Page Config](../features/meta_ads_page_config.md)
-- [Configure Google Leads Integration](../google_leads/setup.md)
-- [Troubleshooting Guide](../../troubleshooting/meta_webhook_issues.md)
+- [Meta Form Mapping](meta_form_mapping.md)
+- [Meta Webhook Lead Logs](meta_webhook_lead_logs.md)
+
 
 ---
 

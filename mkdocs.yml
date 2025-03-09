@@ -48,8 +48,10 @@ nav:
         - Meta:
             - Overview: onelead/meta/index.md
             - Setup: onelead/meta/setup.md
-            - Meta Lead Testing: onelead/meta/meta_lead_testing.md
             - Meta Form Mapping: onelead/meta/meta_form_mapping.md
+            - Meta Webhook Lead Logs: onelead/meta/meta_webhook_lead_logs.md
+            - Meta Lead Testing: onelead/meta/meta_lead_testing.md
+        - Custom Scripts: onelead/custom_scripts.md
   - OneInbox:
       - Overview: oneinbox/index.md
       - Instagram: oneinbox/instagram/index.md

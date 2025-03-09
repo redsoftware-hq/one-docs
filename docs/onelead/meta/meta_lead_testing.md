@@ -79,7 +79,7 @@ curl -X POST http://{base_url}/api/method/onelead.utils.meta_lead.webhook \
 ---
 
 ## Next Steps
-- [Set Up Meta Ads Page Config](../features/meta_ads_page_config.md)
-- [Troubleshooting Guide](../../troubleshooting/meta_webhook_issues.md)
+- [Troubleshooting](../../troubleshooting/meta_webhook_issues.md)
+- [Custom Scripts & Hooks](../custom_scripts.md)
 
 For further assistance, check the [GitHub Issues](https://github.com/redsoftware-hq/onelead/issues).

@@ -10,7 +10,8 @@ To find the **pages** associated with your Meta Ad Account:
 - Alternatively, check **OneLead > Meta Page** to see the **full list of fetched pages**.
 
 **Meta Ads Page Config:**
-![Meta Ads Page Config](../../assets/meta_ads_page_config.png)
+!!! info "Meta Ads Page Config"
+    ![Meta Ads Page Config](../../assets/meta_ads_page_config.png)
 
 ### **Verify Lead Doctype Reference**
 - In **Meta Ads Page Config**, ensure that **"Lead Doctype Reference"** is set.
@@ -28,7 +29,8 @@ Ensure that your page is enabled to allow lead entries. If disabled, it will app
   4. This will open the **Quick Map Lead Fields** pop-up.
 
 **Forms List & Quick Map Button:**
-![Forms List & Quick Map](../../assets/meta_forms_list_quick_map.png)
+!!! info "Quick Map"
+      ![Forms List & Quick Map](../../assets/meta_forms_list_quick_map.png)
 
 ---
 
@@ -83,8 +85,7 @@ In the **Quick Map Lead Fields** pop-up, you will see:
 
 
 ### **Next Steps**
-- [Verify Webhook Lead Logs](../meta/meta_lead_testing.md)
-- [Handle Missing Leads in OneLead](../../troubleshooting/meta_webhook_issues.md)
-- [Customize Field Mapping Using Server Scripts](../custom_scripts.md)
+- [Meta Webhook Lead Logs](meta_webhook_lead_logs.md)
+- [Meta Lead Testing](meta_lead_testing.md)
 
 This completes the **Meta Form Fetching & Mapping** setup for OneLead.
