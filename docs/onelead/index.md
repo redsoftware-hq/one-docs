@@ -16,4 +16,11 @@ With OneLead's **Google Lead Integration**, you can fetch leads directly from **
 - 📊 **Lead tracking & assignment** based on business rules.
 - 🔗 **Webhook-based integration** for real-time updates.
 
+## Sneak Peek 👀
+
+Here’s a quick look at the **OneLead Dashboard** — your central hub for managing and tracking leads from all sources.
+
+!!! info "OneLead Dashboard Preview"
+    ![OneLead Dashboard](../assets/onelead_dashboard.png)
+
 Proceed to **Meta Integration** for detailed setup instructions.

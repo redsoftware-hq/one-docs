@@ -18,6 +18,14 @@ OneLead provides **seamless integration with Meta (Facebook) Lead Ads**, ensurin
 
 For a complete guide on **Meta Webhook Configuration**, go to [Meta Webhook Config](setup.md).
 
+> **Note**
+> If you're using the Meta integration **for your own business (one business account)**, you **do not need to submit your app for Meta App Review**. Just make sure the person setting it up:
+> - Is the **Page Owner** or has **Ads Management access**, and
+> - Has the appropriate role (Admin/Developer) on the Meta App.
+>
+> However, if you intend to make this integration available for **multiple businesses or third-party use**, Meta AppReview is required.
+> ⚠️ As of now, OneLead’s current codebase **does not support multi-business integration**, so external use isn't supported yet.
+
 ## Next Steps
 - [Meta App Setup](setup.md)
 - [Meta Form Mapping](meta_form_mapping.md)
